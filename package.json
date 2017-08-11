@@ -1,0 +1,25 @@
+{
+  "name": "comingsoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlickLabs/comingsoon_base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlickLabs/comingsoon_base/issues"
+  },
+  "homepage": "https://github.com/BlickLabs/comingsoon_base#readme",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.10.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
