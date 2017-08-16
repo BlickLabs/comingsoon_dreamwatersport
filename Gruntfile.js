@@ -6,7 +6,7 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
     stylus: {
       options: {
-        use : [
+        use: [
           function () {
             return require('autoprefixer-stylus')('last 2 versions', 'ie 8');
           }
@@ -18,11 +18,11 @@ module.exports = function (grunt) {
         }
       }
     },
-		watch: {
+    watch: {
       styl: {
         files: ['styl/style.styl'],
         tasks: ['stylus']
-			}
+      }
     }
   });
   grunt.loadNpmTasks('grunt-contrib-watch');
